@@ -1,0 +1,25 @@
+{
+  "name": "infinite-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "view": "npm start --prefix view",
+    "dev": "concurrently \"npm run server\" \"npm run view\""
+  },
+  "author": "Deepak Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "universal-config": "^0.3.0",
+    "unsplash-js": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
